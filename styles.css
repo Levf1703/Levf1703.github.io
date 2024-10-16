@@ -1,0 +1,31 @@
+.text1_h1{
+    color:green;
+}
+
+h1{
+    color: red;
+}
+
+p{
+    color:darkgoldenrod;
+    font-style: italic;
+}
+
+.article_p{
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.text1_p{
+    color: gray;
+}
+
+.text1_button {
+    color: black;
+  }
+  .text1_button:hover {
+    color: red;
+  }
+  .text1_button:active {
+    color: darkred;
+  }
