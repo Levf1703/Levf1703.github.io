@@ -6,6 +6,15 @@
             @@include('blocks/page-header.html')
 
             <main class="main">
+                <header class="promo">
+                    <h1 class="promo__title">Арт — пространство</h1>
+                    <picture class="promo__picture">
+                        <img src="assets/images/LENNI.svg" alt="logo" class="promo__img"/>
+                    </picture>
+                    <p class="promo__text">для людей, горящих сердцем и делом<br/>
+                        место для настоящего</p>
+                </header>
+                @@include('blocks/offers.html', {"class": "home__offers"})
                 <h2 class="listing__title section-title">О нас</h2>
                 @@include('blocks/about.html')
                 <div class="events">
@@ -89,6 +98,9 @@
                                     </div>
                                     <a href="#" class="listing__link link">Смотреть все</a>
                                   </section>
+                                  <h2 class="listing__title section-title">Контакты</h2>
+                                  @@include('blocks/contacts.html', {"class": "home__doit"})
+                                  @@include('blocks/doit.html', {"class": "home__doit"})
                             </div>
             </main>
 
